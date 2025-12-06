@@ -1,4 +1,4 @@
-#Federated Learning vs. Knowledge Distillation
+# Federated Learning vs. Knowledge Distillation
 ## Obiettivo
 Il progetto affronta il problema della classificazione automatica di routine fisioterapiche in scenari distribuiti, dove i dati dei pazienti:
 
