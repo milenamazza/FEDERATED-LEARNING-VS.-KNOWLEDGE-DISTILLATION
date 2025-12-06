@@ -15,7 +15,7 @@ Il lavoro confronta tre paradigmi di apprendimento distribuito:
 - Knowledge Distillation Federata: i client collaborano condividendo predizioni su un dataset sintetico comune (FedMD, FedKD)
 
 
-##🗂️ Struttura del Repository
+## 🗂️ Struttura del Repository
 .
 ├── femnist_lab/                      # Federated Learning su FEMNIST
 │   └── [implementazioni FedAvg, FedProx, FedAdam, FedAdagrad]
