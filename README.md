@@ -15,31 +15,17 @@ Il lavoro confronta tre paradigmi di apprendimento distribuito:
 - Knowledge Distillation Federata: i client collaborano condividendo predizioni su un dataset sintetico comune (FedMD, FedKD)
 
 
-## 🗂️ Struttura del Repository
-.
-├── femnist_lab/                      # Federated Learning su FEMNIST
-│   └── [implementazioni FedAvg, FedProx, FedAdam, FedAdagrad]
-│
-├── irds_lab/                         # Federated Learning su IRDS
-│   └── [implementazioni FedAvg, FedProx, FedAdam, FedAdagrad]
-│
-├── kd_centralizzata/                 # Knowledge Distillation centralizzata
-│   └── [implementazioni teacher-student su FEMNIST e IRDS]
-│
-└── knowledge_distillation_federata/  # Distillazione federata
-    └── [implementazioni FedMD e FedKD]
-
 
 ## 📂 Struttura del progetto
 
 - **`femnist_lab/`**
-  - Codice per esperimenti di *Federated Learning* sul dataset **FEMNIST**.
+  - Codice per esperimenti di *Federated Learning* sul dataset **FEMNIST** [implementazioni FedAvg, FedProx, FedAdam, FedAdagrad].
 - **`irds_lab/`**
-  - Implementazioni di *Federated Learning* sul dataset **IRDS**.
+  - Implementazioni di *Federated Learning* sul dataset **IRDS** [implementazioni FedAvg, FedProx, FedAdam, FedAdagrad].
 - **`kd_centralizzata/`**
-  - Codice per la **Knowledge Distillation centralizzata**.
+  - Codice per la **Knowledge Distillation centralizzata** [implementazioni teacher-student su FEMNIST e IRDS].
 - **`knwledge_distilaltion_federata/`**
-  - Implementazioni di **Knowledge Distillation federata**.
+  - Implementazioni di **Knowledge Distillation federata** [implementazioni FedMD e FedKD].
 
 
 ## ⚙️ Requisiti
